@@ -1,0 +1,5 @@
+com\taus\huskhomes_gui\Application\Model\Commands.class
+com\taus\huskhomes_gui\Application\Model\Config.class
+com\taus\huskhomes_gui\GUI\HHGUI.class
+com\taus\huskhomes_gui\Application\Model\HuskHomesGUI.class
+com\taus\huskhomes_gui\Storage\DB.class
