@@ -23,11 +23,20 @@ public class Commands implements CommandExecutor {
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
         if (commandSender instanceof Player) {
             Player player = (Player) commandSender;
+            if (command.getName().equalsIgnoreCase("home", "/homes")){
+                HuskHomesGUI plugin = HuskHomesGUI.getPlugin(HuskHomesGUI.class);
+                plugin.openGUI(player);
+                // SOUND PLAYED WHEN USING COMMAND /HOME
+                player.playSound(player.getLocation(), Sound.ENTITY_COW_DEATH, 10, 10);
 
-            // SOUND PLAYED WHEN USING COMMAND /HOME
-            player.playSound(player.getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 10, 10);
+                return true;
+            } else if ()
+
+
+        } else {
+            commandSender.sendMessage("This command can only be used by players.");
         }
-        return true;
+        return false;
     }
 
 

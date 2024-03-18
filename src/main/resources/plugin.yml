@@ -4,8 +4,7 @@ main: com.taus.huskhomes_gui.Application.Model.HuskHomesGUI
 api-version: '1.20'
 load: STARTUP
 author: tauses
-depend:
-  - HuskHomes
+
 description: Custom Husk Homes GUI with customizable commands
 
 aliases: [home, homes]
@@ -17,12 +16,7 @@ commands:
     usage: "/home"
     permission: HHGUI.command.home
     permission-message: "You do not have permission to use this command."
-
-  homes:
-    description: Opens GUI
-    usage: "/homes"
-    permission: HHGUI.command.homes
-    permission-message: "You do not have permission to use this command."
+    aliases: [homes]
 
 permissions:
   HHhelp.command.help:
@@ -31,10 +25,6 @@ permissions:
 
   HHGUI.command.home:
     description: "Allows use of /home"
-    permission-message: "You do not have permission to use this command."
-
-  HHGUI.command.homes:
-    description: "Allows use of /homes"
     permission-message: "You do not have permission to use this command."
 
   HHGUI.slot.*:

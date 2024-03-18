@@ -10,7 +10,7 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class Main extends JavaPlugin implements Listener {
+public final class HuskHomesGUI extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
