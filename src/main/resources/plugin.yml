@@ -3,3 +3,18 @@ version: '${project.version}'
 main: com.taus.huskhomes_gui.Application.Model.HuskHomesGUI
 api-version: '1.20'
 load: STARTUP
+author: tauses
+depend:
+  -HuskHomes
+description: Custom Husk Homes GUI with customizable commands
+
+permissions:
+  HHhelp:
+    default: true
+  HHGUI.home:
+    permission-message: You do not have permission to use this command.
+    usage: "Usage: /home"
+
+aliases: [home, homes]
+usage: "Usage: /home"
+
