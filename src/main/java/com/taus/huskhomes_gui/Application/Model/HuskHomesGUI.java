@@ -8,6 +8,7 @@ public final class HuskHomesGUI extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         System.out.println("HUSKHOMESGUI by Tauses Starting...");
+        this.getCommand("home").setExecutor(new Commands());
 
     }
 
