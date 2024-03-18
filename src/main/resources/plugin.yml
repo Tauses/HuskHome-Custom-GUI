@@ -16,5 +16,5 @@ permissions:
     usage: "Usage: /home"
 
 aliases: [home, homes]
-usage: "Usage: /home"
+usage: "Usage: /homes"
 
