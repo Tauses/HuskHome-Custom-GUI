@@ -1,15 +1,11 @@
 name: HuskHomesGUI
 version: '${project.version}'
-main: com.taus.huskhomes_gui.Application.Model.HuskHomesGUI
+main: com.unixmc.huskhomesgui.HuskHomesGUI
 api-version: '1.20'
 load: STARTUP
-author: tauses
+authors: [tauses, ImNotStable]
 
 description: Custom Husk Homes GUI with customizable commands
-
-aliases: [home, homes]
-usage: "Usage: /homes"
-
 commands:
   home:
     description: Opens GUI
